@@ -1,0 +1,7 @@
+在这里下载js文件
+
+上传到论坛public/assets下 ，路径随意，引用记得改就行
+
+在自定义页眉添加一行代码
+
+<script async src="/assets/fireworks.js"></script>
