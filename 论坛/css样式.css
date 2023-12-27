@@ -48,12 +48,12 @@ table th:last-child, table td:last-child {
 }
 /* 字体美化 */
 body {
-    font-family: San Francisco, Helvetica Neue, LXGW WenKai Screen, Arial, sans-serif;
-  }
-  
-h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion-views {
-    font-family: San Francisco, Helvetica Neue, LXGW WenKai Screen, Arial, sans-serif;
+  font-family: LXGW WenKai Screen, serif;
 }
+h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion-views {
+  font-family: LXGW WenKai Screen, sans-serif;
+}
+
 /* 取消欢迎关闭按钮 */
 .Hero-close{
 	display:none;
