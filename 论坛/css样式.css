@@ -10,6 +10,14 @@
     display: block;
     margin: 5px 0;
 }
+
+/* 在手机屏幕上隐藏顶部彩色条 */
+@media (max-width: 768px) {
+    .IndexPage-toolbar::after {
+        display: none;
+    }
+}
+
 /* 表格美化 */
 table {
     table-layout:fixed;
@@ -46,17 +54,22 @@ table th:first-child, table td:first-child {
 table th:last-child, table td:last-child {
     margin-bottom: 0;
 }
+
 /* 字体美化 */
 body {
-  font-family: LXGW WenKai Screen, serif;
+  font-family: 'LXGW WenKai Screen', 'Times New Roman', 'Times', 'Georgia', serif;
 }
+
 h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion-views {
-  font-family: LXGW WenKai Screen, sans-serif;
+  font-family: 'LXGW WenKai Screen', 'Arial', 'Helvetica Neue', 'San Francisco', sans-serif;
 }
+
+
 /* 取消欢迎关闭按钮 */
 .Hero-close{
 	display:none;
 }
+
 /* navigation */
 /* Update the value of max-width according to the width of Header-primary and Header-secondary */
 /* 根据 Header-primary 和 Header-secondary 的宽度，修改 max-width 的大小。header 里东西很多时，max-width 改成更大一些 */
