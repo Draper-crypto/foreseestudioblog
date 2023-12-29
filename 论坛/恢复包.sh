@@ -6,7 +6,6 @@ composer require flarum-lang/chinese-simplified:dev-master
 composer require pipecraft/flarum-ext-id-slug
 # 下拉菜单
 composer require fof/links
-
 # 更新报错
 composer require symfony/mailer
 # Flarum 论坛的基于权限的公共用户目录扩展。
@@ -33,8 +32,6 @@ composer require fof/socialprofile
 composer require fof/share-social
 # FoF个人资料图片裁剪，上传个人资料图片时允许裁剪
 composer require fof/profile-image-crop:"*"
-# FoF HTML 错误，添加自定义 HTML 错误页面
-composer require fof/html-errors
 # FoF 首页，将讨论推到Flarum论坛索引的前面！
 composer require fof/frontpage
 # FoF草稿，允许用户创建帖子和讨论草稿
@@ -101,11 +98,20 @@ composer require sycho/flarum-profile-cover
 composer require v17development/flarum-seo
 # 回到顶部
 composer require becod/flarum-backtotop:"*"
+# Mercury，用于了解扩展更新的 Extiverse 扩展
+# https://discuss.flarum.org/d/27620-mercury-the-extiverse-extension-to-understand-extension-updates
+composer require extiverse/mercury:"*"
+# Mobile tab
+# https://extiverse.com/extension/acpl/mobile-tab
+composer require acpl/mobile-tab
+# 当它进入视图时自动单击“加载更多”按钮
+composer require katosdev/automore
+# 将论坛上的 Font Awesome 升级到版本 6（免费或专业版）
+composer require blomstra/fontawesome:"*"
+
 
 
 # 未来更新
-# FoF页面，使用 Flarum 创建自定义页面
-# composer require fof/pages
 # FoF OAuth，允许用户使用 GitHub、Twitter、Facebook、Google 等登录！
 # composer require fof/oauth
 # FoF格式，通过管理界面使用插件自定义 TextFormatter
@@ -121,34 +127,35 @@ composer require becod/flarum-backtotop:"*"
 # 论坛小部件，用于管理论坛小部件的核心扩展
 # https://extiverse.com/extension/afrux/forum-widgets-core
 # composer require afrux/forum-widgets-core:"*"
-# Mercury，用于了解扩展更新的 Extiverse 扩展
-# https://discuss.flarum.org/d/27620-mercury-the-extiverse-extension-to-understand-extension-updates
-# composer require extiverse/mercury:"*"
-
-
-
-# Mobile tab
-# https://extiverse.com/extension/acpl/mobile-tab
-
-
 # 热度
-composer require fof/gamification
-# 书签
-composer require clarkwinkelmann/flarum-ext-bookmarks
-# 图片放大
-composer require tohsakarat/fancybox-plus
-# 点击图片弹出查看窗口
-composer require darkle/fancybox
-#编辑器预览
-composer require zerosonesfun/composer-preview
+# composer require fof/gamification
 #生成一些虚假数据，例如：用户，帖子
 #composer require migratetoflarum/fake-data:*
-#论坛国际化翻译
-composer require fof/linguist
-#文件上传
-composer require fof/upload
+# 书签
+# composer require clarkwinkelmann/flarum-ext-bookmarks
 
 
 # 移除
 # 渐进式 Web 应用程序，将您的 flarum 网站变成一个渐进式 Web 应用程序！
-composer remove askvortsov/flarum-pwa
+# composer remove askvortsov/flarum-pwa
+# 足迹(Discussion views)
+# composer remove michaelbelgium/flarum-discussion-views
+# FoF HTML Errors
+# composer remove fof/html-errors
+# 将文件上传至腾讯云COS（有问题）
+# composer removee gbcl/fof-upload-qcloud
+# 自定义html页面（有问题）
+# composer require fof/pages
+
+
+
+
+
+
+
+
+
+
+
+
+
