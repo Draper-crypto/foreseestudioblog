@@ -6,8 +6,7 @@ composer require flarum-lang/chinese-simplified:dev-master
 composer require pipecraft/flarum-ext-id-slug
 # 下拉菜单
 composer require fof/links
-# 置顶和排序（未知好坏）
-composer require michaelbelgium/flarum-discussion-views
+
 # 更新报错
 composer require symfony/mailer
 # Flarum 论坛的基于权限的公共用户目录扩展。
@@ -100,6 +99,8 @@ composer require zequeen/acgembed-remastered
 composer require sycho/flarum-profile-cover
 # SEO
 composer require v17development/flarum-seo
+# 回到顶部
+composer require becod/flarum-backtotop:"*"
 
 
 # 未来更新
