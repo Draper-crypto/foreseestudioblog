@@ -104,10 +104,12 @@ composer require extiverse/mercury:"*"
 # Mobile tab
 # https://extiverse.com/extension/acpl/mobile-tab
 composer require acpl/mobile-tab
-# 当它进入视图时自动单击“加载更多”按钮
-composer require katosdev/automore
-# 将论坛上的 Font Awesome 升级到版本 6（免费或专业版）
-composer require blomstra/fontawesome:"*"
+# Markdown Paste
+composer require yohtozze/markdown-paste
+# 邮件美化
+composer require fof/pretty-mail
+# 目录
+composer require tohsakarat/table-of-content
 
 
 
@@ -146,7 +148,10 @@ composer require blomstra/fontawesome:"*"
 # composer removee gbcl/fof-upload-qcloud
 # 自定义html页面（有问题）
 # composer require fof/pages
-
+# 将论坛上的 Font Awesome 升级到版本 6（免费或专业版）
+# composer remove blomstra/fontawesome
+# 当它进入视图时自动单击“加载更多”按钮
+# composer remove katosdev/automore
 
 
 
