@@ -38,8 +38,6 @@ composer require fof/frontpage
 composer require fof/drafts:"*"
 # FoF Cookie 同意，可定制的 cookie 同意通知
 composer require fof/cookie-consent
-# 渐进式 Web 应用程序，将您的 flarum 网站变成一个渐进式 Web 应用程序！
-composer require askvortsov/flarum-pwa
 # Markdown 表格
 composer require askvortsov/flarum-markdown-tables:*
 # 首次批准,保留新用户的帖子和讨论以供批准
@@ -78,13 +76,13 @@ composer require clarkwinkelmann/flarum-ext-circle-groups
 composer require fof/follow-tags:"*"
 # FoF 订阅，论坛的其他用户订阅
 composer require fof/subscribed:"*"
-#识别 Github Link
+# 识别 Github Link
 composer require fof/github-autolink
-#个人主页留言板
+# 个人主页留言板
 composer require fof/moderator-notes
 # Tex 数学公式支持
 composer require the-turk/flarum-mathren
-#标签颜色生成
+# 标签颜色生成
 composer require nearata/flarum-ext-tags-color-generator
 # 在后台查看错误日志
 composer require ianm/log-viewer
@@ -92,7 +90,7 @@ composer require ianm/log-viewer
 composer require justoverclock/christmas-snow-effect
 # 嵌入Niconico/ACFUN/虾米音乐/网易云音乐/Bilibili
 composer require zequeen/acgembed-remastered
-#个人主页封面图片
+# 个人主页封面图片
 composer require sycho/flarum-profile-cover
 # SEO
 composer require v17development/flarum-seo
@@ -110,7 +108,12 @@ composer require yohtozze/markdown-paste
 composer require fof/pretty-mail
 # 目录
 composer require tohsakarat/table-of-content
-
+# 确认密码
+composer require nearata/flarum-ext-signup-confirm-password:"*"
+# 更多BBcode
+composer require imeepo/flarum-more-bbcode:"*"
+# BBcode下载
+composer require ramesh-dada/download-button
 
 
 # 未来更新
@@ -152,7 +155,6 @@ composer require tohsakarat/table-of-content
 # composer remove blomstra/fontawesome
 # 当它进入视图时自动单击“加载更多”按钮
 # composer remove katosdev/automore
-
 
 
 

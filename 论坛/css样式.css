@@ -1,73 +1,99 @@
 /* 首页顶部条 */
 .IndexPage-toolbar::after {
-    content: "唯愿公平如大水滚滚 | 使公义如江河滔滔";
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 16px;
-    background: linear-gradient(135deg, #29c7ac, #6699ff);
-    display: block;
-    margin: 5px 0;
+  content: "唯愿公平如大水滚滚 | 使公义如江河滔滔";
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  background: linear-gradient(135deg, #29c7ac, #6699ff);
+  display: block;
+  margin: 5px 0;
 }
 
 /* 在手机屏幕上隐藏顶部彩色条 */
 @media (max-width: 768px) {
-    .IndexPage-toolbar::after {
-        display: none;
-    }
+  .IndexPage-toolbar::after {
+    display: none;
+  }
 }
 
 /* 表格美化 */
 table {
-    table-layout:fixed;
-    padding: 0;
-    word-break: break-all;
-    border-collapse: collapse;
-    margin: 0.8em 0;
-    width: 100%;
+  table-layout: fixed;
+  padding: 0;
+  word-break: break-all;
+  border-collapse: collapse;
+  margin: 0.8em 0;
+  width: 100%;
 }
+
 table tr {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 0;
 }
-table tr:nth-child(2n), thead {
-    background-color: #f8f8f8;
+
+table tr:nth-child(2n),
+thead {
+  background-color: #f8f8f8;
 }
+
 table th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
-    width: auto ! important;
+  font-weight: bold;
+  border: 1px solid #dfe2e5;
+  border-bottom: 0;
+  margin: 0;
+  padding: 6px 13px;
+  width: auto ! important;
 }
+
 table td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+  margin: 0;
+  padding: 6px 13px;
 }
-table th:first-child, table td:first-child {
-    margin-top: 0;
+
+table th:first-child,
+table td:first-child {
+  margin-top: 0;
 }
-table th:last-child, table td:last-child {
-    margin-bottom: 0;
+
+table th:last-child,
+table td:last-child {
+  margin-bottom: 0;
 }
+
 
 /* 字体美化 */
-body {
-  font-family: 'LXGW WenKai Screen', 'Times New Roman', 'Times', 'Georgia', serif;
+@font-face {
+  font-family:AliMedium;
+  src:url('../../assets/font/Alibaba-PuHuiTi-Light.ttf')
+}
+@font-face {
+  font-family:AliHeavy;
+  src:url('../../assets/font/Alibaba-PuHuiTi-Regular.ttf')
 }
 
-h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion-views {
-  font-family: 'LXGW WenKai Screen', 'Arial', 'Helvetica Neue', 'San Francisco', sans-serif;
+body {
+  font-family: "AliMedium", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.TagsLabel,
+.Button,
+.DiscussionListItem-count,
+.item-discussion-views {
+  font-family: "AliMedium", sans-serif;
 }
 
 
 /* 取消欢迎关闭按钮 */
-.Hero-close{
-	display:none;
+.Hero-close {
+  display: none;
 }
 
 /* navigation */
@@ -80,6 +106,7 @@ h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
   .Header-primary:after {
     content: " > ";
     margin-left: 20px;
@@ -89,25 +116,29 @@ h1, h2, h3, h4, .TagsLabel, .Button, .DiscussionListItem-count, .item-discussion
     padding-right: 30px;
     padding-bottom: 20px;
   }
+
   .Header-primary:hover .Header-controls {
     transition: max-width 1s;
     max-width: 1000px;
     overflow: unset;
     animation: delay-overflow-unset 1s;
   }
+
   @keyframes delay-overflow-unset {
     from {
       overflow: hidden;
     }
+
     to {
       overflow: unset;
     }
   }
+
   .Header-primary:hover:after {
     content: "";
   }
 
-  .Header-primary:hover + .Header-secondary {
+  .Header-primary:hover+.Header-secondary {
     white-space: nowrap;
     overflow: hidden;
     margin-right: 20px;
