@@ -40,8 +40,6 @@ composer require fof/drafts:"*"
 composer require fof/cookie-consent
 # Markdown 表格
 composer require askvortsov/flarum-markdown-tables:*
-# 首次批准,保留新用户的帖子和讨论以供批准
-composer require clarkwinkelmann/flarum-ext-first-post-approval
 # FFans 剪贴板js,添加一种现代方法，将代码复制到剪贴板，并显示代码语言。
 # https://extiverse.com/extension/ffans/clipboardjs
 composer require ffans/clipboardjs
@@ -60,8 +58,7 @@ composer require the-turk/flarum-flamoji
 composer require darkle/fancybox
 # UI 选项卡，向 Flarum 添加一个 UI 选项卡。
 composer require gitzaai/mobile-ui-tab-2
-# 讨论书签，为讨论添加书签，以便日后轻松找到它们
-composer require clarkwinkelmann/flarum-ext-discussion-bookmarks
+
 # 阅读时间，向 Flarum 添加读取时间进度条
 composer require justoverclock/thread-read-time:"*"
 # 移动搜索，将移动搜索移至首页
@@ -112,9 +109,12 @@ composer require tohsakarat/table-of-content
 composer require nearata/flarum-ext-signup-confirm-password:"*"
 # 更多BBcode
 composer require imeepo/flarum-more-bbcode:"*"
-# BBcode下载
+# BBcode下载 
 composer require ramesh-dada/download-button
-
+# FoF BBCode Details
+composer require fof/bbcode-details
+# 讨论书签，为讨论添加书签，以便日后轻松找到它们
+composer require clarkwinkelmann/flarum-ext-discussion-bookmarks
 
 # 未来更新
 # FoF OAuth，允许用户使用 GitHub、Twitter、Facebook、Google 等登录！
@@ -134,10 +134,9 @@ composer require ramesh-dada/download-button
 # composer require afrux/forum-widgets-core:"*"
 # 热度
 # composer require fof/gamification
-#生成一些虚假数据，例如：用户，帖子
+# 生成一些虚假数据，例如：用户，帖子
 #composer require migratetoflarum/fake-data:*
-# 书签
-# composer require clarkwinkelmann/flarum-ext-bookmarks
+
 
 
 # 移除
@@ -155,6 +154,9 @@ composer require ramesh-dada/download-button
 # composer remove blomstra/fontawesome
 # 当它进入视图时自动单击“加载更多”按钮
 # composer remove katosdev/automore
+# 首次批准,保留新用户的帖子和讨论以供批准
+# composer remove clarkwinkelmann/flarum-ext-first-post-approval
+
 
 
 
