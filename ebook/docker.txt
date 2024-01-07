@@ -1,0 +1,12 @@
+docker run -d --privileged \
+--name=calibre \
+--restart=always \
+-p 8083:8083 \
+-v /home/calibre/config:/config \
+-v /home/calibre/library:/library \
+johngong/calibre-web
+
+
+参考：https://blog.csdn.net/rjszz1314/article/details/125659366
+
+
